@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SpaceInvadersSFML"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\;CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceInvadersSFML">
+				<Option output="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/SpaceInvadersSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceInvadersSFML"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceInvadersSFML/fast">
+				<Option output="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/SpaceInvadersSFML.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceInvadersSFML/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/Game.cpp">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/Game.h">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/GameObject.cpp">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/GameObject.h">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/TextSetup.h">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/Vector2.cpp">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/Vector2.h">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/src/main.cpp">
+			<Option target="SpaceInvadersSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Archie Still/Desktop/!UNI WORK/First Year/Games in C++/Space Invaders/space-invaders-22-23-ArchieStill/../../../../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

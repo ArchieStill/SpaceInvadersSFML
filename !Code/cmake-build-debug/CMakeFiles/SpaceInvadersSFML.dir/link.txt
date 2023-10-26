@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SpaceInvadersSFML.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\SpaceInvadersSFML.dir/objects.a @CMakeFiles\SpaceInvadersSFML.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -static -Wl,--whole-archive CMakeFiles\SpaceInvadersSFML.dir/objects.a -Wl,--no-whole-archive -o SpaceInvadersSFML.exe -Wl,--out-implib,libSpaceInvadersSFML.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SpaceInvadersSFML.dir\linklibs.rsp
